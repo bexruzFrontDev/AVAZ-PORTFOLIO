@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: purple;
+    color: #fff;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+img {
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid lime;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding: 60px;
+    gap: 15px;
+}
+
+.homework,
+.classwork {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 30px;
+}
